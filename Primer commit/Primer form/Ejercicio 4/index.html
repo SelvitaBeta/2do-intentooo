@@ -1,0 +1,43 @@
+<html>
+    <head></head>
+    <body>
+        <form>
+            <h1>Formulario de Registro</h1>
+            
+            <label for="name">Nombre:</label> <input type="text">
+            <br><br>
+            
+            <label for="name">Apellidos:</label> <input type="text">
+            <br><br>
+            
+            <label for="name">Sexo:</label> 
+                <input type="radio" name="Sexo" value="hombre">hombre
+                <input type="radio" name="Sexo" value="mujer" checked="checked">mujer
+            <br><br>
+            
+            <label for="name">Correo:</label> <input type="email">
+            <br><br>
+            
+            <label for="name">Población:</label>
+            <select name="Poblacion" id="Poblacion"> <!-- va name en lugar de poblacion, asi asocio select a label -->
+                <option value="Alicante">Alicante</option>
+                <option value="Andalucia">Andalucia</option>
+                <option value="Madrid">Madrid</option>
+              </select>
+              <br><br>
+
+              <label for="name">Descripción:</label> <textarea name="textarea" rows="5" cols="50"></textarea>
+              <br><br>
+
+              <input type="checkbox"> <label for="name">Deseo recibir información sobre novedades y ofertas</label>
+              <br><br>
+
+              <input type="checkbox"> <label for="name">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+              <br><br>
+
+              <input type="submit" value="submit">
+
+        </form>
+
+    </body>
+</html>
